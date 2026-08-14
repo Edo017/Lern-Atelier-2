@@ -32,3 +32,9 @@ Effizienter arbeiten, weniger Hilfe von KI benutzen, konzentrierter arbeiten und
 ### Tagesreflexion 14.08.26
 
 Heute habe ich zu Beginn der ILA Monitore getestet und bin dann auf das Evnia gekommen, weil es am besten war: gute Grösse, nicht curved und am optimalsten für die Arbeit. Danach habe ich den Auftrag 1706 mit dem M231 kurz fertiggestellt und abgegeben, weil ich mir noch nicht sicher bin. M320 habe ich gut gemacht und mit Objekten angefangen. Bei M322 habe ich einen Auftrag von Dienstag kurz gelöst und ein bisschen repetiert. Alles ging gut, ich hatte nicht so grosse Schwierigkeiten. Für heute Abend wird es wahrscheinlich die gleichen Arbeitspakete sein, aber vielleicht werde ich auch ein Projekt anfangen.
+
+### Planung 21.08.26
+
+- [ ] M320 weiter arbeiten
+- [ ] M322 weiter arbeiten
+- [ ] M231 weiter arbeiten
