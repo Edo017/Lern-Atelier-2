@@ -1,0 +1,15 @@
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.AssemblyInfoInputs.cache
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.AssemblyInfo.cs
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.sourcelink.json
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\bin\Debug\net10.0\VerfluchterDungeon.exe
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\bin\Debug\net10.0\VerfluchterDungeon.deps.json
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\bin\Debug\net10.0\VerfluchterDungeon.runtimeconfig.json
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\bin\Debug\net10.0\VerfluchterDungeon.dll
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\bin\Debug\net10.0\VerfluchterDungeon.pdb
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.dll
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\refint\VerfluchterDungeon.dll
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.pdb
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.genruntimeconfig.cache
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\ref\VerfluchterDungeon.dll
