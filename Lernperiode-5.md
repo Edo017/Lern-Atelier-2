@@ -38,3 +38,5 @@ Heute habe ich zu Beginn der ILA Monitore getestet und bin dann auf das Evnia ge
 - [ ] M320 weiter arbeiten
 - [ ] M322 weiter arbeiten
 - [ ] M231 weiter arbeiten
+
+### Tagesreflexion 21.08.26
