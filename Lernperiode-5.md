@@ -35,8 +35,16 @@ Heute habe ich zu Beginn der ILA Monitore getestet und bin dann auf das Evnia ge
 
 ### Planung 21.08.2026
 
+- [x] M320 weiter arbeiten
+- [x] M322 weiter arbeiten
+- [x] M231 weiter arbeiten
+
+### Tagesreflexion 21.08.2026
+
+Heute habe ich am Anfang mit Helin im M231 den Auftrag 1708 gemacht. Es ging eigentlich gut, ausser bei VeraCrypt. Da hatten wir beide Probleme, aber mit der Hilfe von KI haben wir das Problem verstanden. Danach habe ich die weiteren Aufträge von M231 ein bisschen bearbeitet, aber nicht fertiggestellt. Danach habe ich ein bisschen M320 gemacht und bin fast fertig mit Kapitel 1. Zuletzt habe ich die Aufgaben von Dienstag in M322 fertiggemacht, weil ich nach Hause gehen musste. Ich habe auch ein bisschen repetiert. Ich hatte nur ein bisschen Schwierigkeiten, aber sonst ging alles gut. Für das nächste Mal werde ich das Gleiche machen.
+
+### Planung 22.08.2026
+
 - [ ] M320 weiter arbeiten
 - [ ] M322 weiter arbeiten
 - [ ] M231 weiter arbeiten
-
-### Tagesreflexion 21.08.2026
