@@ -1,9 +1,20 @@
 ﻿using System;
+using VerfluchterDungeon;
 
-var player = new Player { Name = "Elira", Hp = 20, AttackPower = 5 };
-var enemy = new Enemy { Name = "Goblin", Hp = 12, AttackPower = 4 };
+var sword = new Weapon("Schwert", 3);
+var mace = new Weapon("Streitkolben", 4);
+var staff = new Weapon("Zauberstab", 2);
+var potion = new Weapon("Heiltrank", 0);
 
-Console.WriteLine($"Kampf startet zwischen {player.Name} und {enemy.Name}!");
+var player = new Player("Elira", 20, 5, sword);
+var enemy = new Enemy { Name = "Goblin", Hp = 100, AttackPower = 4 };
+
+var warrior = new Warrior("Thorin", 25, 6, mace);
+var mage = new Mage("Gandalf", 18, 7, staff);
+var healer = new Healer("Arwen", 22, 8, potion);
+
+
+Console.WriteLine($"Kampf startet zwischen {player.Name}, {warrior.Name}, {mage.Name} und {healer.Name} gegen {enemy.Name}!");
 
 while (player.Hp > 0 && enemy.Hp > 0)
 {
@@ -11,19 +22,33 @@ while (player.Hp > 0 && enemy.Hp > 0)
     enemy.Hp -= playerDamage;
     Console.WriteLine($"{player.Name} greift an und verursacht {playerDamage} Schaden. {enemy.Name} hat noch {enemy.Hp} HP.");
 
-    if (enemy.Hp <= 0)
+    int warriorDamage = warrior.Attack();
+    enemy.Hp -= warriorDamage;
+    Console.WriteLine($"{warrior.Name} bashed den Gegner und verursacht {warriorDamage} Schaden. {enemy.Name} hat noch {enemy.Hp} HP.");
+
+    int mageDamage = mage.CastSpell();
+    enemy.Hp -= mageDamage;
+    Console.WriteLine($"{mage.Name} wirkt einen Zauber und verursacht {mageDamage} Schaden. {enemy.Name} hat noch {enemy.Hp} HP.");
+
+    if (healer.Hp < 10)
     {
-        Console.WriteLine($"{enemy.Name} wurde besiegt und {player.Name} gewinnt!");
-        break;
+        int healedAmount = healer.Heal();
+        Console.WriteLine($"{healer.Name} heilt sich selbst um {healedAmount} HP. {healer.Name} hat jetzt {healer.Hp} HP.");
     }
+
+
 
     int enemyDamage = enemy.Attack();
     player.Hp -= enemyDamage;
-    Console.WriteLine($"{enemy.Name} greift an und verursacht {enemyDamage} Schaden. {player.Name} hat noch {player.Hp} HP.");
+    Console.WriteLine($"{enemy.Name} greift {player.Name} an und verursacht {enemyDamage} Schaden. {player.Name} hat noch {player.Hp} HP.");
 
     if (player.Hp <= 0)
     {
-        Console.WriteLine($"{player.Name} wurde besiegt und {enemy.Name} gewinnt!");
+        Console.WriteLine($"{player.Name} wurde besiegt! Kampf vorbei.");
         break;
     }
+}
+if (enemy.Hp <= 0)
+{
+    Console.WriteLine($"{enemy.Name} wurde besiegt und die Truppe gefeiert ihren Sieg!");
 }
