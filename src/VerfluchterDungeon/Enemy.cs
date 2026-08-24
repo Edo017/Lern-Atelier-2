@@ -30,8 +30,10 @@ public class Enemy
     /// Führt einen Angriff aus und berechnet den dabei verursachten Schaden.
     /// </summary>
     /// <returns>Der berechnete Schaden des Angriffs.</returns>
+    private readonly DamageCalculator _damageCalculator = new DamageCalculator();
+
     public int Attack()
-    {
-        return RandomGenerator.Next(1, AttackPower + 1);
+    {   
+        return _damageCalculator.CalculateDamage(AttackPower,0);
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System;
 using VerfluchterDungeon;
 
+var inventory = new Inventory();
+
 var sword = new Weapon("Schwert", 3);
 var mace = new Weapon("Streitkolben", 4);
 var staff = new Weapon("Zauberstab", 2);
@@ -12,6 +14,14 @@ var enemy = new Enemy { Name = "Goblin", Hp = 100, AttackPower = 4 };
 var warrior = new Warrior("Thorin", 25, 6, mace);
 var mage = new Mage("Gandalf", 18, 7, staff);
 var healer = new Healer("Arwen", 22, 8, potion);
+
+inventory.AddItem(new Item("Goldmünze", 10));
+inventory.AddItem(new Item("Silbermünze", 5));
+
+Console.WriteLine("Inventar:");
+inventory.ListItems();
+
+
 
 
 Console.WriteLine($"Kampf startet zwischen {player.Name}, {warrior.Name}, {mage.Name} und {healer.Name} gegen {enemy.Name}!");

@@ -56,9 +56,11 @@ public class Player
     /// aus zufälligem Basisschaden und dem Schaden der ausgerüsteten Waffe.
     /// </summary>
     /// <returns>Der berechnete Gesamtschaden des Angriffs.</returns>
+    private readonly DamageCalculator _damageCalculator = new DamageCalculator();
+
     public int Attack()
-    {
-        int baseDamage = RandomGenerator.Next(MinDamageRoll, AttackPower + 1);
-        return baseDamage + EquippedWeapon.Damage;
+    {   
+        return _damageCalculator.CalculateDamage(AttackPower, EquippedWeapon.Damage);
     }
-}
+    
+}   
