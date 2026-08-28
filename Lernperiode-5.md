@@ -43,8 +43,18 @@ Heute habe ich zu Beginn der ILA Monitore getestet und bin dann auf das Evnia ge
 
 Heute habe ich am Anfang mit Helin im M231 den Auftrag 1708 gemacht. Es ging eigentlich gut, ausser bei VeraCrypt. Da hatten wir beide Probleme, aber mit der Hilfe von KI haben wir das Problem verstanden. Danach habe ich die weiteren Aufträge von M231 ein bisschen bearbeitet, aber nicht fertiggestellt. Danach habe ich ein bisschen M320 gemacht und bin fast fertig mit Kapitel 1. Zuletzt habe ich die Aufgaben von Dienstag in M322 fertiggemacht, weil ich nach Hause gehen musste. Ich habe auch ein bisschen repetiert. Ich hatte nur ein bisschen Schwierigkeiten, aber sonst ging alles gut. Für das nächste Mal werde ich das Gleiche machen.
 
-### Planung 22.08.2026
+### Planung 28.08.2026
+
+- [x] M320 weiter arbeiten
+- [x] M322 weiter arbeiten
+- [x] M231 weiter arbeiten
+
+### Tagesreflexion 28.08.2026
+
+Heute habe ich eigentlich nur die Module, die wir jetzt behandeln, repetiert. Im M320 habe ich vor allem die Konstruktoren repetiert und mich damit beschäftigt, wie es ganz genau funktioniert. Dann habe ich bei HZ3 die Aufträge 1716 und 1717 in M231 gemacht und zuletzt in M322 einfach die PPP repetiert. Allgemein hatte ich keine grossen Schwierigkeiten und alles lief gut. Das wird für das nächste Mal genauso sein.
+
+### Planung 04.09.2026
 
 - [ ] M320 weiter arbeiten
-- [ ] M322 weiter arbeiten
+- [ ] M322 repetieren
 - [ ] M231 weiter arbeiten
