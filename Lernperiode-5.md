@@ -58,3 +58,13 @@ Heute habe ich eigentlich nur die Module, die wir jetzt behandeln, repetiert. Im
 - [ ] M320 weiter arbeiten
 - [ ] M322 repetieren
 - [ ] M231 weiter arbeiten
+
+### Tagesreflexion 04.09.2026
+
+Heute habe ich eigentlich alles wie die letzten Male gemacht, einfach diesmal habe ich nichts bei M322 gemacht, weil ich keine Lust hatte, es zu wiederholen. Dafür habe ich eigentlich nur an meinem Notebook gearbeitet: Ich habe neue Apps installiert, alte oder unnötige deinstalliert, einen Browser installiert, den Passwort-Manager aktualisiert etc. Solche Sachen. Ich habe auch an M320 und M231 gearbeitet. Bei M320 habe ich zwei Aufträge gelöst und bei M231 habe ich angefangen, werde es aber wahrscheinlich heute zu Hause fertig lösen. Heute hatte ich keine grossen Schwierigkeiten und alles lief gut. Nächstes Mal wird es genauso sein.
+
+### Planung 11.09.2026
+
+- [ ] M320 weiter arbeiten
+- [ ] M322 repetieren
+- [ ] M231 weiter arbeiten
