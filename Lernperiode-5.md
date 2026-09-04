@@ -55,9 +55,9 @@ Heute habe ich eigentlich nur die Module, die wir jetzt behandeln, repetiert. Im
 
 ### Planung 04.09.2026
 
-- [ ] M320 weiter arbeiten
-- [ ] M322 repetieren
-- [ ] M231 weiter arbeiten
+- [x] M320 weiter arbeiten
+- [x] M322 repetieren
+- [x] M231 weiter arbeiten
 
 ### Tagesreflexion 04.09.2026
 
