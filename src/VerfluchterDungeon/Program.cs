@@ -9,17 +9,32 @@ var staff = new Weapon("Zauberstab", 2);
 var potion = new Weapon("Heiltrank", 0);
 
 var player = new Player("Elira", 20, 5, sword);
-var enemy = new Enemy { Name = "Goblin", Hp = 100, AttackPower = 4 };
+var enemy = new Enemy("Goblin", 100, 4);
 
 var warrior = new Warrior("Thorin", 25, 6, mace);
 var mage = new Mage("Gandalf", 18, 7, staff);
 var healer = new Healer("Arwen", 22, 8, potion);
+
+var rooms = new List<Room>
+{
+    new Room("Eingangshalle", "Staubige Fackeln erhellen einen alten Torbogen."),
+    new Room("Wachraum", "Ein Goblin faucht dich an!", new Enemy("Goblin", 12, 4)),
+    new Room("Schatzkammer", "Alte Truhen stehen hier, laengst gepluendert."),
+};
+var dungeon = new Dungeon(rooms);
+while (dungeon.HasNextRoom())
+{
+    dungeon.EnterNextRoom(player);
+}
+
 
 inventory.AddItem(new Item("Goldmünze", 10));
 inventory.AddItem(new Item("Silbermünze", 5));
 
 Console.WriteLine("Inventar:");
 inventory.ListItems();
+
+
 
 
 

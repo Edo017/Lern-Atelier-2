@@ -9,7 +9,7 @@ public class Enemy
     /// <summary>
     /// Der Name des Gegners.
     /// </summary>
-    public required string Name { get; set; }
+    public  string Name { get; set; }
 
     /// <summary>
     /// Die aktuellen Lebenspunkte (HP) des Gegners.
@@ -21,6 +21,14 @@ public class Enemy
     /// </summary>
     public int AttackPower { get; set; }
 
+    public Enemy(string name, int hp, int attackPower)
+    {
+        Name = name;
+        Hp = hp;
+        AttackPower = attackPower;
+    }
+
+
     /// <summary>
     /// Zufallsgenerator zur Berechnung des Schadens bei einem Angriff.
     /// </summary>
@@ -31,7 +39,7 @@ public class Enemy
     /// </summary>
     /// <returns>Der berechnete Schaden des Angriffs.</returns>
     private readonly DamageCalculator _damageCalculator = new DamageCalculator();
-
+    
     public int Attack()
     {   
         return _damageCalculator.CalculateDamage(AttackPower,0);
