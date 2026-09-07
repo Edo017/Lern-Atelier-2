@@ -9,35 +9,31 @@ var staff = new Weapon("Zauberstab", 2);
 var potion = new Weapon("Heiltrank", 0);
 
 var player = new Player("Elira", 20, 5, sword);
-var enemy = new Enemy("Goblin", 100, 4);
+var enemy = new Boss("Dungeonfürst", 100, 4);
 
 var warrior = new Warrior("Thorin", 25, 6, mace);
 var mage = new Mage("Gandalf", 18, 7, staff);
 var healer = new Healer("Arwen", 22, 8, potion);
 
-var rooms = new List<Room>
+List<Room> rooms = new List<Room>
 {
-    new Room("Eingangshalle", "Staubige Fackeln erhellen einen alten Torbogen."),
-    new Room("Wachraum", "Ein Goblin faucht dich an!", new Enemy("Goblin", 12, 4)),
-    new Room("Schatzkammer", "Alte Truhen stehen hier, laengst gepluendert."),
+    new Room("Vorhalle", "Ein einsamer Goblin schreckt hoch.", new Goblin("Grunzi", 10, 3)),
+    new Room("Wachraum", "Ein Ork blockiert den Weg.", new Orc("Thokk", 16, 4)),
+    new Room("Gruft", "Knochen klappern in der Dunkelheit.", new Skeleton("Klapper", 8, 3)),
+    new Room("Thronsaal", "Der Dungeonherr erhebt sich!", new Boss("Dungeonherr", 30, 5)),
 };
-var dungeon = new Dungeon(rooms);
+
+Dungeon dungeon = new Dungeon(rooms);
 while (dungeon.HasNextRoom())
 {
     dungeon.EnterNextRoom(player);
 }
-
 
 inventory.AddItem(new Item("Goldmünze", 10));
 inventory.AddItem(new Item("Silbermünze", 5));
 
 Console.WriteLine("Inventar:");
 inventory.ListItems();
-
-
-
-
-
 
 Console.WriteLine($"Kampf startet zwischen {player.Name}, {warrior.Name}, {mage.Name} und {healer.Name} gegen {enemy.Name}!");
 
@@ -60,8 +56,6 @@ while (player.Hp > 0 && enemy.Hp > 0)
         int healedAmount = healer.Heal();
         Console.WriteLine($"{healer.Name} heilt sich selbst um {healedAmount} HP. {healer.Name} hat jetzt {healer.Hp} HP.");
     }
-
-
 
     int enemyDamage = enemy.Attack();
     player.Hp -= enemyDamage;
