@@ -65,6 +65,15 @@ Heute habe ich eigentlich alles wie die letzten Male gemacht, einfach diesmal ha
 
 ### Planung 11.09.2026
 
+- [x] M320 weiter arbeiten
+- [x] M322 repetieren
+- [x] M231 weiter arbeiten
+
+### Tagesplanung 11.09.2026
+
+Heute habe ich die meiste Zeit damit verbracht, mein Terminal zu gestalten und neue Befehle herunterzuladen, zum Beispiel, um den Explorer auf dem Terminal zu öffnen, Videos herunterzuladen, den Taskmanager auf dem Terminal zu öffnen und solche Sachen. Ich habe auch eigene Themes für das Terminal erstellt und mit Oh my Posh fancy Sachen gemacht. Ansonsten habe ich nur ein bisschen an den Modulen gearbeitet bzw. repetiert: M320 kurz repetiert, bei M321 eine Aufgabe gelöst und bei M322 einfach repetiert. Ich hatte keine grossen Schwierigkeiten, alles lief gut. Für das nächste Mal werde ich an M320 weiterarbeiten/repetieren und wahrscheinlich mein Notebook gestalten.
+
+### Planung 18.09.2026
+
 - [ ] M320 weiter arbeiten
-- [ ] M322 repetieren
-- [ ] M231 weiter arbeiten
+- [ ] Notebook gestalten
