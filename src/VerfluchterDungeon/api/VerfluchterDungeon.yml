@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: VerfluchterDungeon
+  commentId: N:VerfluchterDungeon
+  id: VerfluchterDungeon
+  children:
+  - VerfluchterDungeon.Boss
+  - VerfluchterDungeon.Goblin
+  - VerfluchterDungeon.Orc
+  - VerfluchterDungeon.Skeleton
+  - VerfluchterDungeon.Warrior
+  - VerfluchterDungeon.Weapon
+  langs:
+  - csharp
+  - vb
+  name: VerfluchterDungeon
+  nameWithType: VerfluchterDungeon
+  fullName: VerfluchterDungeon
+  type: Namespace
+  assemblies:
+  - VerfluchterDungeon
+references:
+- uid: VerfluchterDungeon.Boss
+  commentId: T:VerfluchterDungeon.Boss
+  href: VerfluchterDungeon.Boss.html
+  name: Boss
+  nameWithType: Boss
+  fullName: VerfluchterDungeon.Boss
+- uid: VerfluchterDungeon.Goblin
+  commentId: T:VerfluchterDungeon.Goblin
+  href: VerfluchterDungeon.Goblin.html
+  name: Goblin
+  nameWithType: Goblin
+  fullName: VerfluchterDungeon.Goblin
+- uid: VerfluchterDungeon.Orc
+  commentId: T:VerfluchterDungeon.Orc
+  href: VerfluchterDungeon.Orc.html
+  name: Orc
+  nameWithType: Orc
+  fullName: VerfluchterDungeon.Orc
+- uid: VerfluchterDungeon.Skeleton
+  commentId: T:VerfluchterDungeon.Skeleton
+  href: VerfluchterDungeon.Skeleton.html
+  name: Skeleton
+  nameWithType: Skeleton
+  fullName: VerfluchterDungeon.Skeleton
+- uid: VerfluchterDungeon.Warrior
+  commentId: T:VerfluchterDungeon.Warrior
+  href: VerfluchterDungeon.Warrior.html
+  name: Warrior
+  nameWithType: Warrior
+  fullName: VerfluchterDungeon.Warrior
+- uid: VerfluchterDungeon.Weapon
+  commentId: T:VerfluchterDungeon.Weapon
+  parent: VerfluchterDungeon
+  href: VerfluchterDungeon.Weapon.html
+  name: Weapon
+  nameWithType: Weapon
+  fullName: VerfluchterDungeon.Weapon
+- uid: VerfluchterDungeon
+  commentId: N:VerfluchterDungeon
+  href: VerfluchterDungeon.html
+  name: VerfluchterDungeon
+  nameWithType: VerfluchterDungeon
+  fullName: VerfluchterDungeon

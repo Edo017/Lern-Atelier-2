@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: VerfluchterDungeon.Orc
+  commentId: T:VerfluchterDungeon.Orc
+  id: Orc
+  parent: VerfluchterDungeon
+  children:
+  - VerfluchterDungeon.Orc.#ctor(System.String,System.Int32,System.Int32)
+  - VerfluchterDungeon.Orc.Attack
+  langs:
+  - csharp
+  - vb
+  name: Orc
+  nameWithType: Orc
+  fullName: VerfluchterDungeon.Orc
+  type: Class
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Orc.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Orc
+    path: Orc.cs
+    startLine: 5
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Ein Gegner mit erhöhtem Angriffsschaden.
+  example: []
+  syntax:
+    content: 'public class Orc : Enemy'
+    content.vb: Public Class Orc Inherits Enemy
+  inheritance:
+  - System.Object
+  - Enemy
+  inheritedMembers:
+  - Enemy.Name
+  - Enemy.Hp
+  - Enemy.AttackPower
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: VerfluchterDungeon.Orc.#ctor(System.String,System.Int32,System.Int32)
+  commentId: M:VerfluchterDungeon.Orc.#ctor(System.String,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.Int32,System.Int32)'
+  parent: VerfluchterDungeon.Orc
+  langs:
+  - csharp
+  - vb
+  name: Orc(string, int, int)
+  nameWithType: Orc.Orc(string, int, int)
+  fullName: VerfluchterDungeon.Orc.Orc(string, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Orc.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: .ctor
+    path: Orc.cs
+    startLine: 14
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Erstellt einen neuen Orc.
+  example: []
+  syntax:
+    content: public Orc(string name, int hp, int attackPower)
+    parameters:
+    - id: name
+      type: System.String
+      description: Anzeigename des Orcs.
+    - id: hp
+      type: System.Int32
+      description: Start-Lebenspunkte.
+    - id: attackPower
+      type: System.Int32
+      description: Grundangriffswert.
+    content.vb: Public Sub New(name As String, hp As Integer, attackPower As Integer)
+  overload: VerfluchterDungeon.Orc.#ctor*
+  nameWithType.vb: Orc.New(String, Integer, Integer)
+  fullName.vb: VerfluchterDungeon.Orc.New(String, Integer, Integer)
+  name.vb: New(String, Integer, Integer)
+- uid: VerfluchterDungeon.Orc.Attack
+  commentId: M:VerfluchterDungeon.Orc.Attack
+  id: Attack
+  parent: VerfluchterDungeon.Orc
+  langs:
+  - csharp
+  - vb
+  name: Attack()
+  nameWithType: Orc.Attack()
+  fullName: VerfluchterDungeon.Orc.Attack()
+  type: Method
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Orc.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Attack
+    path: Orc.cs
+    startLine: 21
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Wie Enemy.Attack(), aber mit zusätzlichem Bonusschaden.
+  example: []
+  syntax:
+    content: public override int Attack()
+    return:
+      type: System.Int32
+      description: Der verursachte Schaden in Punkten.
+    content.vb: Public Overrides Function Attack() As Integer
+  overridden: Enemy.Attack
+  overload: VerfluchterDungeon.Orc.Attack*
+references:
+- uid: VerfluchterDungeon
+  commentId: N:VerfluchterDungeon
+  href: VerfluchterDungeon.html
+  name: VerfluchterDungeon
+  nameWithType: VerfluchterDungeon
+  fullName: VerfluchterDungeon
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Enemy
+  commentId: T:Enemy
+  href: Enemy.html
+  name: Enemy
+  nameWithType: Enemy
+  fullName: Enemy
+- uid: Enemy.Name
+  commentId: P:Enemy.Name
+  parent: Enemy
+  href: Enemy.html#Enemy_Name
+  name: Name
+  nameWithType: Enemy.Name
+  fullName: Enemy.Name
+- uid: Enemy.Hp
+  commentId: P:Enemy.Hp
+  parent: Enemy
+  href: Enemy.html#Enemy_Hp
+  name: Hp
+  nameWithType: Enemy.Hp
+  fullName: Enemy.Hp
+- uid: Enemy.AttackPower
+  commentId: P:Enemy.AttackPower
+  parent: Enemy
+  href: Enemy.html#Enemy_AttackPower
+  name: AttackPower
+  nameWithType: Enemy.AttackPower
+  fullName: Enemy.AttackPower
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VerfluchterDungeon.Orc.#ctor*
+  commentId: Overload:VerfluchterDungeon.Orc.#ctor
+  href: VerfluchterDungeon.Orc.html#VerfluchterDungeon_Orc__ctor_System_String_System_Int32_System_Int32_
+  name: Orc
+  nameWithType: Orc.Orc
+  fullName: VerfluchterDungeon.Orc.Orc
+  nameWithType.vb: Orc.New
+  fullName.vb: VerfluchterDungeon.Orc.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Enemy.Attack
+  commentId: M:Enemy.Attack
+  parent: Enemy
+  href: Enemy.html#Enemy_Attack
+  name: Attack()
+  nameWithType: Enemy.Attack()
+  fullName: Enemy.Attack()
+  spec.csharp:
+  - uid: Enemy.Attack
+    name: Attack
+    href: Enemy.html#Enemy_Attack
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Enemy.Attack
+    name: Attack
+    href: Enemy.html#Enemy_Attack
+  - name: (
+  - name: )
+- uid: VerfluchterDungeon.Orc.Attack*
+  commentId: Overload:VerfluchterDungeon.Orc.Attack
+  href: VerfluchterDungeon.Orc.html#VerfluchterDungeon_Orc_Attack
+  name: Attack
+  nameWithType: Orc.Attack
+  fullName: VerfluchterDungeon.Orc.Attack

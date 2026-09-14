@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VerfluchterDungeon</name>
+    </assembly>
+    <members>
+        <member name="T:VerfluchterDungeon.Boss">
+            <summary>Endgegner des Dungeons - greift bei niedrigen HP wuetend an.</summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Boss.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>Erstellt einen neuen Boss.</summary>
+            <param name="name">Anzeigename des Bosses.</param>
+            <param name="hp">Start- und zugleich maximale Lebenspunkte.</param>
+            <param name="attackPower">Grundangriffswert.</param>
+        </member>
+        <member name="M:VerfluchterDungeon.Boss.Attack">
+            <summary>
+            Wie Enemy.Attack(), aber verdoppelt bei niedrigen HP (Wut-Mechanik).
+            </summary>
+            <returns>Der verursachte Schaden in Punkten.</returns>
+        </member>
+        <member name="T:VerfluchterDungeon.Goblin">
+            <summary>Ein einfacher, schwacher Gegner.</summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Goblin.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>Erstellt einen neuen Goblin.</summary>
+            <param name="name">Anzeigename des Goblins.</param>
+            <param name="hp">Start-Lebenspunkte.</param>
+            <param name="attackPower">Grundangriffswert.</param>
+        </member>
+        <member name="T:VerfluchterDungeon.Orc">
+            <summary>Ein Gegner mit erhöhtem Angriffsschaden.</summary>
+        </member>
+        <member name="F:VerfluchterDungeon.Orc.OrcBonusDamage">
+            <summary>Zusätzlicher Schaden, den der Orc bei jedem Angriff verursacht.</summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Orc.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>Erstellt einen neuen Orc.</summary>
+            <param name="name">Anzeigename des Orcs.</param>
+            <param name="hp">Start-Lebenspunkte.</param>
+            <param name="attackPower">Grundangriffswert.</param>
+        </member>
+        <member name="M:VerfluchterDungeon.Orc.Attack">
+            <summary>Wie Enemy.Attack(), aber mit zusätzlichem Bonusschaden.</summary>
+            <returns>Der verursachte Schaden in Punkten.</returns>
+        </member>
+        <member name="T:VerfluchterDungeon.Skeleton">
+            <summary>Ein Gegner, der einmalig nach dem Tod mit wenig HP wiederauferstehen kann.</summary>
+        </member>
+        <member name="F:VerfluchterDungeon.Skeleton._hasReassembled">
+            <summary>Gibt an, ob das Skelett bereits reassembliert wurde.</summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Skeleton.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>Erstellt ein neues Skelett.</summary>
+            <param name="name">Anzeigename des Skeletts.</param>
+            <param name="hp">Start-Lebenspunkte.</param>
+            <param name="attackPower">Grundangriffswert.</param>
+        </member>
+        <member name="M:VerfluchterDungeon.Skeleton.Reassemble">
+            <summary>
+            Lässt das Skelett einmalig mit 5 HP wiederauferstehen, sofern es besiegt wurde
+            und dies noch nicht geschehen ist.
+            </summary>
+            <returns><c>true</c>, wenn die Reassemblierung erfolgreich war, sonst <c>false</c>.</returns>
+        </member>
+        <member name="T:VerfluchterDungeon.Warrior">
+            <summary>
+            Repräsentiert einen Krieger-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Warrior.Name">
+            <summary>
+            Der Name des Kriegers.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Warrior.Hp">
+            <summary>
+            Die aktuellen Lebenspunkte (HP) des Kriegers.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Warrior.AttackPower">
+            <summary>
+            Die Angriffskraft des Kriegers, beeinflusst den maximal möglichen Basisschaden.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Warrior.EquippedWeapon">
+            <summary>
+            Die aktuell ausgerüstete Waffe des Kriegers.
+            </summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Warrior.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)">
+            <summary>
+            Erstellt einen neuen Krieger mit den angegebenen Startwerten.
+            </summary>
+            <param name="name">Der Name des Kriegers.</param>
+            <param name="hp">Die Start-Lebenspunkte des Kriegers.</param>
+            <param name="attackPower">Die Angriffskraft des Kriegers.</param>
+            <param name="equippedWeapon">Die Waffe, die der Krieger zu Beginn ausgerüstet hat.</param>
+        </member>
+        <member name="F:VerfluchterDungeon.Warrior.MinDamageRoll">
+            <summary>
+            Der minimal mögliche Wert für den zufälligen Basisschaden.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Warrior.RandomGenerator">
+            <summary>
+            Zufallsgenerator zur Berechnung des Basisschadens bei einem Angriff.
+            </summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Warrior.Bash">
+            <summary>
+            Führt einen starken Angriff (Bash) aus, der den doppelten Waffenschaden verursacht.
+            </summary>
+            <returns>Der berechnete Gesamtschaden des Bash-Angriffs.</returns>
+        </member>
+        <member name="M:VerfluchterDungeon.Warrior.Attack">
+            <summary>
+            Führt einen Standard-Angriff aus.
+            </summary>
+            <returns>Der berechnete Gesamtschaden.</returns>
+        </member>
+        <member name="T:VerfluchterDungeon.Weapon">
+            <summary>
+            Repräsentiert eine Waffe mit einem Namen und einem Schadenswert.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Weapon.Name">
+            <summary>
+            Der Name der Waffe.
+            </summary>
+        </member>
+        <member name="P:VerfluchterDungeon.Weapon.Damage">
+            <summary>
+            Der Schadenswert, den die Waffe bei einem Angriff hinzufügt.
+            </summary>
+        </member>
+        <member name="M:VerfluchterDungeon.Weapon.#ctor(System.String,System.Int32)">
+            <summary>
+            Erstellt eine neue Waffe mit dem angegebenen Namen und Schadenswert.
+            </summary>
+            <param name="name">Der Name der Waffe.</param>
+            <param name="damage">Der Schadenswert der Waffe.</param>
+        </member>
+        <member name="T:DamageCalculator">
+            <summary>Berechnet den Schaden eines Angriffs.</summary>
+        </member>
+        <member name="F:DamageCalculator.MinDamageRoll">
+            <summary>Der minimal mögliche Wert für den zufälligen Basisschaden.</summary>
+        </member>
+        <member name="P:DamageCalculator.RandomGenerator">
+            <summary>Zufallsgenerator zur Berechnung des Basisschadens.</summary>
+        </member>
+        <member name="M:DamageCalculator.CalculateDamage(System.Int32,System.Int32)">
+            <summary>Berechnet den Gesamtschaden aus Angriffskraft und Waffenschaden.</summary>
+            <param name="attackPower">Die Angriffskraft des Angreifers.</param>
+            <param name="weaponDamage">Der Schadenswert der Waffe.</param>
+            <returns>Der berechnete Gesamtschaden.</returns>
+        </member>
+        <member name="T:Dungeon">
+            <summary>Steuert den Ablauf durch die Räume des Dungeons inklusive Kämpfen.</summary>
+        </member>
+        <member name="F:Dungeon._rooms">
+            <summary>Die Räume des Dungeons in Reihenfolge.</summary>
+        </member>
+        <member name="F:Dungeon._currentRoomIndex">
+            <summary>Der Index des aktuellen Raums.</summary>
+        </member>
+        <member name="M:Dungeon.#ctor(System.Collections.Generic.List{Room})">
+            <summary>Erstellt einen neuen Dungeon mit den angegebenen Räumen.</summary>
+            <param name="rooms">Die Liste der Räume, aus denen der Dungeon besteht.</param>
+        </member>
+        <member name="M:Dungeon.HasNextRoom">
+            <summary>Prüft, ob noch ein weiterer Raum verfügbar ist.</summary>
+            <returns><c>true</c>, wenn ein nächster Raum existiert, sonst <c>false</c>.</returns>
+        </member>
+        <member name="M:Dungeon.EnterNextRoom(Player)">
+            <summary>Betritt den nächsten Raum und löst bei Bedarf einen Kampf aus.</summary>
+            <param name="player">Der Spieler, der den Raum betritt.</param>
+            <returns>Der betretene Raum.</returns>
+        </member>
+        <member name="M:Dungeon.RunCombat(Player,Enemy)">
+            <summary>Führt einen rundenbasierten Kampf zwischen Spieler und Gegner aus.</summary>
+            <param name="player">Der kämpfende Spieler.</param>
+            <param name="enemy">Der kämpfende Gegner.</param>
+        </member>
+        <member name="T:Enemy">
+            <summary>
+            Repräsentiert einen Gegner mit Lebenspunkten und Angriffskraft.
+            </summary>
+        </member>
+        <member name="P:Enemy.Name">
+            <summary>Der Name des Gegners.</summary>
+        </member>
+        <member name="P:Enemy.Hp">
+            <summary>Die aktuellen Lebenspunkte des Gegners.</summary>
+        </member>
+        <member name="P:Enemy.AttackPower">
+            <summary>Die Angriffskraft des Gegners.</summary>
+        </member>
+        <member name="F:Enemy._damageCalculator">
+            <summary>Dient zur Berechnung des Schadens bei Angriffen.</summary>
+        </member>
+        <member name="M:Enemy.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>Erstellt einen neuen Gegner mit den angegebenen Startwerten.</summary>
+            <param name="name">Der Name des Gegners.</param>
+            <param name="hp">Die Start-Lebenspunkte des Gegners.</param>
+            <param name="attackPower">Die Angriffskraft des Gegners.</param>
+        </member>
+        <member name="M:Enemy.Attack">
+            <summary>Führt einen Standardangriff aus.</summary>
+            <returns>Der berechnete Schaden.</returns>
+        </member>
+        <member name="T:Healer">
+            <summary>
+            Repräsentiert einen Heiler-Charakter mit Lebenspunkten, Heilkraft und ausgerüsteter Waffe.
+            </summary>
+        </member>
+        <member name="P:Healer.Name">
+            <summary>
+            Der Name des Heilers.
+            </summary>
+        </member>
+        <member name="P:Healer.Hp">
+            <summary>
+            Die aktuellen Lebenspunkte (HP) des Heilers.
+            </summary>
+        </member>
+        <member name="P:Healer.HealingPower">
+            <summary>
+            Die Heilkraft des Heilers.
+            </summary>
+        </member>
+        <member name="P:Healer.EquippedWeapon">
+            <summary>
+            Die aktuell ausgerüstete Waffe des Heilers.
+            </summary>
+        </member>
+        <member name="M:Healer.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)">
+            <summary>
+            Erstellt einen neuen Heiler mit den angegebenen Startwerten.
+            </summary>
+            <param name="name">Der Name des Heilers.</param>
+            <param name="hp">Die Start-Lebenspunkte des Heilers.</param>
+            <param name="healingPower">Die Heilkraft des Heilers.</param>
+            <param name="equippedWeapon">Die Waffe, die der Heiler zu Beginn ausgerüstet hat.</param>
+        </member>
+        <member name="M:Healer.Heal">
+            <summary>
+            Heilt den Heiler um einen festen Betrag, indem die Lebenspunkte entsprechend erhöht werden.
+            </summary>
+            <returns>Der Betrag, um den die Lebenspunkte erhöht wurden.</returns>
+        </member>
+        <member name="T:Inventory">
+            <summary>Verwaltet eine Sammlung von Gegenständen.</summary>
+        </member>
+        <member name="F:Inventory._items">
+            <summary>Die im Inventar enthaltenen Gegenstände.</summary>
+        </member>
+        <member name="M:Inventory.AddItem(Item)">
+            <summary>Fügt dem Inventar einen Gegenstand hinzu.</summary>
+            <param name="item">Der hinzuzufügende Gegenstand.</param>
+        </member>
+        <member name="M:Inventory.ListItems">
+            <summary>Gibt alle Gegenstände im Inventar auf der Konsole aus.</summary>
+        </member>
+        <member name="T:Item">
+            <summary>Repräsentiert einen Gegenstand mit Namen und Wert.</summary>
+        </member>
+        <member name="P:Item.Name">
+            <summary>Der Name des Gegenstands.</summary>
+        </member>
+        <member name="P:Item.Value">
+            <summary>Der Wert des Gegenstands.</summary>
+        </member>
+        <member name="M:Item.#ctor(System.String,System.Int32)">
+            <summary>Erstellt einen neuen Gegenstand.</summary>
+            <param name="name">Der Name des Gegenstands.</param>
+            <param name="value">Der Wert des Gegenstands.</param>
+        </member>
+        <member name="T:Mage">
+            <summary>
+            Repräsentiert einen Magier-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
+            </summary>
+        </member>
+        <member name="P:Mage.Name">
+            <summary>
+            Der Name des Magiers.
+            </summary>
+        </member>
+        <member name="P:Mage.Hp">
+            <summary>
+            Die aktuellen Lebenspunkte (HP) des Magiers.
+            </summary>
+        </member>
+        <member name="P:Mage.AttackPower">
+            <summary>
+            Die Angriffskraft des Magiers, beeinflusst die Stärke seiner Zauber.
+            </summary>
+        </member>
+        <member name="P:Mage.EquippedWeapon">
+            <summary>
+            Die aktuell ausgerüstete Waffe des Magiers.
+            </summary>
+        </member>
+        <member name="M:Mage.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)">
+            <summary>
+            Erstellt einen neuen Magier mit den angegebenen Startwerten.
+            </summary>
+            <param name="name">Der Name des Magiers.</param>
+            <param name="hp">Die Start-Lebenspunkte des Magiers.</param>
+            <param name="attackPower">Die Angriffskraft des Magiers.</param>
+            <param name="equippedWeapon">Die Waffe, die der Magier zu Beginn ausgerüstet hat.</param>
+        </member>
+        <member name="P:Mage.RandomGenerator">
+            <summary>
+            Zufallsgenerator zur Berechnung des Zauberschadens.
+            </summary>
+        </member>
+        <member name="M:Mage.CastSpell">
+            <summary>
+            Wirkt einen Zauber, dessen Schaden zufällig zwischen der Angriffskraft
+            und dem Dreifachen der Angriffskraft liegt.
+            </summary>
+            <returns>Der berechnete Schaden des Zaubers.</returns>
+        </member>
+        <member name="T:Player">
+            <summary>
+            Repräsentiert den Spielercharakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
+            </summary>
+        </member>
+        <member name="P:Player.Name">
+            <summary>
+            Der Name des Spielers.
+            </summary>
+        </member>
+        <member name="P:Player.Hp">
+            <summary>
+            Die aktuellen Lebenspunkte (HP) des Spielers.
+            </summary>
+        </member>
+        <member name="P:Player.AttackPower">
+            <summary>
+            Die Angriffskraft des Spielers, beeinflusst den maximal möglichen Basisschaden.
+            </summary>
+        </member>
+        <member name="P:Player.EquippedWeapon">
+            <summary>
+            Die aktuell ausgerüstete Waffe des Spielers.
+            </summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)">
+            <summary>
+            Erstellt einen neuen Spieler mit den angegebenen Startwerten.
+            </summary>
+            <param name="name">Der Name des Spielers.</param>
+            <param name="hp">Die Start-Lebenspunkte des Spielers.</param>
+            <param name="attackPower">Die Angriffskraft des Spielers.</param>
+            <param name="equippedWeapon">Die Waffe, die der Spieler zu Beginn ausgerüstet hat.</param>
+        </member>
+        <member name="F:Player.MinDamageRoll">
+            <summary>
+            Der minimal mögliche Wert für den zufälligen Basisschaden.
+            </summary>
+        </member>
+        <member name="P:Player.RandomGenerator">
+            <summary>
+            Zufallsgenerator zur Berechnung des Basisschadens bei einem Angriff.
+            </summary>
+        </member>
+        <member name="F:Player._damageCalculator">
+            <summary>
+            Dient zur Berechnung des Schadens bei Angriffen.
+            </summary>
+        </member>
+        <member name="M:Player.Attack">
+            <summary>
+            Führt einen Angriff aus und berechnet den daraus resultierenden Gesamtschaden
+            aus zufälligem Basisschaden und dem Schaden der ausgerüsteten Waffe.
+            </summary>
+            <returns>Der berechnete Gesamtschaden des Angriffs.</returns>
+        </member>
+        <member name="T:Room">
+            <summary>Repräsentiert einen Raum im Dungeon, der optional einen Gegner enthält.</summary>
+        </member>
+        <member name="P:Room.Name">
+            <summary>Der Name des Raums.</summary>
+        </member>
+        <member name="P:Room.Description">
+            <summary>Die Beschreibung des Raums.</summary>
+        </member>
+        <member name="P:Room.Enemy">
+            <summary>Der Gegner im Raum, sofern vorhanden.</summary>
+        </member>
+        <member name="M:Room.#ctor(System.String,System.String,Enemy)">
+            <summary>Erstellt einen neuen Raum.</summary>
+            <param name="name">Der Name des Raums.</param>
+            <param name="description">Die Beschreibung des Raums.</param>
+            <param name="enemy">Optionaler Gegner, der sich im Raum befindet.</param>
+        </member>
+        <member name="M:Room.Describe">
+            <summary>Gibt Name und Beschreibung des Raums auf der Konsole aus.</summary>
+        </member>
+    </members>
+</doc>

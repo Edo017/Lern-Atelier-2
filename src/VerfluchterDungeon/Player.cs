@@ -4,7 +4,7 @@ using VerfluchterDungeon;
 /// <summary>
 /// Repräsentiert den Spielercharakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
 /// </summary>
-public class Player
+public class Player : IAttackable
 {
     /// <summary>
     /// Der Name des Spielers.
@@ -31,13 +31,13 @@ public class Player
     /// </summary>
     /// <param name="name">Der Name des Spielers.</param>
     /// <param name="hp">Die Start-Lebenspunkte des Spielers.</param>
-    /// <param name="AttackPower">Die Angriffskraft des Spielers.</param>
+    /// <param name="attackPower">Die Angriffskraft des Spielers.</param>
     /// <param name="equippedWeapon">Die Waffe, die der Spieler zu Beginn ausgerüstet hat.</param>
-    public Player(string name, int hp, int AttackPower, Weapon equippedWeapon)
+    public Player(string name, int hp, int attackPower, Weapon equippedWeapon)
     {
         Name = name;
         Hp = hp;
-        this.AttackPower = AttackPower;
+        AttackPower = attackPower;
         EquippedWeapon = equippedWeapon;
     }
 
@@ -52,15 +52,17 @@ public class Player
     private Random RandomGenerator { get; } = new Random();
 
     /// <summary>
+    /// Dient zur Berechnung des Schadens bei Angriffen.
+    /// </summary>
+    private readonly DamageCalculator _damageCalculator = new DamageCalculator();
+
+    /// <summary>
     /// Führt einen Angriff aus und berechnet den daraus resultierenden Gesamtschaden
     /// aus zufälligem Basisschaden und dem Schaden der ausgerüsteten Waffe.
     /// </summary>
     /// <returns>Der berechnete Gesamtschaden des Angriffs.</returns>
-    private readonly DamageCalculator _damageCalculator = new DamageCalculator();
-
     public int Attack()
-    {   
+    {
         return _damageCalculator.CalculateDamage(AttackPower, EquippedWeapon.Damage);
     }
-    
-}   
+}

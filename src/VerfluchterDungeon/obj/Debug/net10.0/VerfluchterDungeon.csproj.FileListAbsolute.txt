@@ -13,3 +13,5 @@ C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\refint\Ve
 C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.pdb
 C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.genruntimeconfig.cache
 C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\ref\VerfluchterDungeon.dll
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\bin\Debug\net10.0\VerfluchterDungeon.xml
+C:\Users\omerc\Lern-Atelier-2\src\VerfluchterDungeon\obj\Debug\net10.0\VerfluchterDungeon.xml

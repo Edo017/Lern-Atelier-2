@@ -1,0 +1,302 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: VerfluchterDungeon
+  name: VerfluchterDungeon
+  href: api/VerfluchterDungeon.html
+  commentId: N:VerfluchterDungeon
+  fullName: VerfluchterDungeon
+  nameWithType: VerfluchterDungeon
+- uid: VerfluchterDungeon.Boss
+  name: Boss
+  href: api/VerfluchterDungeon.Boss.html
+  commentId: T:VerfluchterDungeon.Boss
+  fullName: VerfluchterDungeon.Boss
+  nameWithType: Boss
+- uid: VerfluchterDungeon.Boss.#ctor(System.String,System.Int32,System.Int32)
+  name: Boss(string, int, int)
+  href: api/VerfluchterDungeon.Boss.html#VerfluchterDungeon_Boss__ctor_System_String_System_Int32_System_Int32_
+  commentId: M:VerfluchterDungeon.Boss.#ctor(System.String,System.Int32,System.Int32)
+  name.vb: New(String, Integer, Integer)
+  fullName: VerfluchterDungeon.Boss.Boss(string, int, int)
+  fullName.vb: VerfluchterDungeon.Boss.New(String, Integer, Integer)
+  nameWithType: Boss.Boss(string, int, int)
+  nameWithType.vb: Boss.New(String, Integer, Integer)
+- uid: VerfluchterDungeon.Boss.#ctor*
+  name: Boss
+  href: api/VerfluchterDungeon.Boss.html#VerfluchterDungeon_Boss__ctor_
+  commentId: Overload:VerfluchterDungeon.Boss.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: VerfluchterDungeon.Boss.Boss
+  fullName.vb: VerfluchterDungeon.Boss.New
+  nameWithType: Boss.Boss
+  nameWithType.vb: Boss.New
+- uid: VerfluchterDungeon.Boss.Attack
+  name: Attack()
+  href: api/VerfluchterDungeon.Boss.html#VerfluchterDungeon_Boss_Attack
+  commentId: M:VerfluchterDungeon.Boss.Attack
+  fullName: VerfluchterDungeon.Boss.Attack()
+  nameWithType: Boss.Attack()
+- uid: VerfluchterDungeon.Boss.Attack*
+  name: Attack
+  href: api/VerfluchterDungeon.Boss.html#VerfluchterDungeon_Boss_Attack_
+  commentId: Overload:VerfluchterDungeon.Boss.Attack
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Boss.Attack
+  nameWithType: Boss.Attack
+- uid: VerfluchterDungeon.Goblin
+  name: Goblin
+  href: api/VerfluchterDungeon.Goblin.html
+  commentId: T:VerfluchterDungeon.Goblin
+  fullName: VerfluchterDungeon.Goblin
+  nameWithType: Goblin
+- uid: VerfluchterDungeon.Goblin.#ctor(System.String,System.Int32,System.Int32)
+  name: Goblin(string, int, int)
+  href: api/VerfluchterDungeon.Goblin.html#VerfluchterDungeon_Goblin__ctor_System_String_System_Int32_System_Int32_
+  commentId: M:VerfluchterDungeon.Goblin.#ctor(System.String,System.Int32,System.Int32)
+  name.vb: New(String, Integer, Integer)
+  fullName: VerfluchterDungeon.Goblin.Goblin(string, int, int)
+  fullName.vb: VerfluchterDungeon.Goblin.New(String, Integer, Integer)
+  nameWithType: Goblin.Goblin(string, int, int)
+  nameWithType.vb: Goblin.New(String, Integer, Integer)
+- uid: VerfluchterDungeon.Goblin.#ctor*
+  name: Goblin
+  href: api/VerfluchterDungeon.Goblin.html#VerfluchterDungeon_Goblin__ctor_
+  commentId: Overload:VerfluchterDungeon.Goblin.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: VerfluchterDungeon.Goblin.Goblin
+  fullName.vb: VerfluchterDungeon.Goblin.New
+  nameWithType: Goblin.Goblin
+  nameWithType.vb: Goblin.New
+- uid: VerfluchterDungeon.Orc
+  name: Orc
+  href: api/VerfluchterDungeon.Orc.html
+  commentId: T:VerfluchterDungeon.Orc
+  fullName: VerfluchterDungeon.Orc
+  nameWithType: Orc
+- uid: VerfluchterDungeon.Orc.#ctor(System.String,System.Int32,System.Int32)
+  name: Orc(string, int, int)
+  href: api/VerfluchterDungeon.Orc.html#VerfluchterDungeon_Orc__ctor_System_String_System_Int32_System_Int32_
+  commentId: M:VerfluchterDungeon.Orc.#ctor(System.String,System.Int32,System.Int32)
+  name.vb: New(String, Integer, Integer)
+  fullName: VerfluchterDungeon.Orc.Orc(string, int, int)
+  fullName.vb: VerfluchterDungeon.Orc.New(String, Integer, Integer)
+  nameWithType: Orc.Orc(string, int, int)
+  nameWithType.vb: Orc.New(String, Integer, Integer)
+- uid: VerfluchterDungeon.Orc.#ctor*
+  name: Orc
+  href: api/VerfluchterDungeon.Orc.html#VerfluchterDungeon_Orc__ctor_
+  commentId: Overload:VerfluchterDungeon.Orc.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: VerfluchterDungeon.Orc.Orc
+  fullName.vb: VerfluchterDungeon.Orc.New
+  nameWithType: Orc.Orc
+  nameWithType.vb: Orc.New
+- uid: VerfluchterDungeon.Orc.Attack
+  name: Attack()
+  href: api/VerfluchterDungeon.Orc.html#VerfluchterDungeon_Orc_Attack
+  commentId: M:VerfluchterDungeon.Orc.Attack
+  fullName: VerfluchterDungeon.Orc.Attack()
+  nameWithType: Orc.Attack()
+- uid: VerfluchterDungeon.Orc.Attack*
+  name: Attack
+  href: api/VerfluchterDungeon.Orc.html#VerfluchterDungeon_Orc_Attack_
+  commentId: Overload:VerfluchterDungeon.Orc.Attack
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Orc.Attack
+  nameWithType: Orc.Attack
+- uid: VerfluchterDungeon.Skeleton
+  name: Skeleton
+  href: api/VerfluchterDungeon.Skeleton.html
+  commentId: T:VerfluchterDungeon.Skeleton
+  fullName: VerfluchterDungeon.Skeleton
+  nameWithType: Skeleton
+- uid: VerfluchterDungeon.Skeleton.#ctor(System.String,System.Int32,System.Int32)
+  name: Skeleton(string, int, int)
+  href: api/VerfluchterDungeon.Skeleton.html#VerfluchterDungeon_Skeleton__ctor_System_String_System_Int32_System_Int32_
+  commentId: M:VerfluchterDungeon.Skeleton.#ctor(System.String,System.Int32,System.Int32)
+  name.vb: New(String, Integer, Integer)
+  fullName: VerfluchterDungeon.Skeleton.Skeleton(string, int, int)
+  fullName.vb: VerfluchterDungeon.Skeleton.New(String, Integer, Integer)
+  nameWithType: Skeleton.Skeleton(string, int, int)
+  nameWithType.vb: Skeleton.New(String, Integer, Integer)
+- uid: VerfluchterDungeon.Skeleton.#ctor*
+  name: Skeleton
+  href: api/VerfluchterDungeon.Skeleton.html#VerfluchterDungeon_Skeleton__ctor_
+  commentId: Overload:VerfluchterDungeon.Skeleton.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: VerfluchterDungeon.Skeleton.Skeleton
+  fullName.vb: VerfluchterDungeon.Skeleton.New
+  nameWithType: Skeleton.Skeleton
+  nameWithType.vb: Skeleton.New
+- uid: VerfluchterDungeon.Skeleton.Reassemble
+  name: Reassemble()
+  href: api/VerfluchterDungeon.Skeleton.html#VerfluchterDungeon_Skeleton_Reassemble
+  commentId: M:VerfluchterDungeon.Skeleton.Reassemble
+  fullName: VerfluchterDungeon.Skeleton.Reassemble()
+  nameWithType: Skeleton.Reassemble()
+- uid: VerfluchterDungeon.Skeleton.Reassemble*
+  name: Reassemble
+  href: api/VerfluchterDungeon.Skeleton.html#VerfluchterDungeon_Skeleton_Reassemble_
+  commentId: Overload:VerfluchterDungeon.Skeleton.Reassemble
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Skeleton.Reassemble
+  nameWithType: Skeleton.Reassemble
+- uid: VerfluchterDungeon.Warrior
+  name: Warrior
+  href: api/VerfluchterDungeon.Warrior.html
+  commentId: T:VerfluchterDungeon.Warrior
+  fullName: VerfluchterDungeon.Warrior
+  nameWithType: Warrior
+- uid: VerfluchterDungeon.Warrior.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)
+  name: Warrior(string, int, int, Weapon)
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior__ctor_System_String_System_Int32_System_Int32_VerfluchterDungeon_Weapon_
+  commentId: M:VerfluchterDungeon.Warrior.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)
+  name.vb: New(String, Integer, Integer, Weapon)
+  fullName: VerfluchterDungeon.Warrior.Warrior(string, int, int, VerfluchterDungeon.Weapon)
+  fullName.vb: VerfluchterDungeon.Warrior.New(String, Integer, Integer, VerfluchterDungeon.Weapon)
+  nameWithType: Warrior.Warrior(string, int, int, Weapon)
+  nameWithType.vb: Warrior.New(String, Integer, Integer, Weapon)
+- uid: VerfluchterDungeon.Warrior.#ctor*
+  name: Warrior
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior__ctor_
+  commentId: Overload:VerfluchterDungeon.Warrior.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: VerfluchterDungeon.Warrior.Warrior
+  fullName.vb: VerfluchterDungeon.Warrior.New
+  nameWithType: Warrior.Warrior
+  nameWithType.vb: Warrior.New
+- uid: VerfluchterDungeon.Warrior.Attack
+  name: Attack()
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Attack
+  commentId: M:VerfluchterDungeon.Warrior.Attack
+  fullName: VerfluchterDungeon.Warrior.Attack()
+  nameWithType: Warrior.Attack()
+- uid: VerfluchterDungeon.Warrior.Attack*
+  name: Attack
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Attack_
+  commentId: Overload:VerfluchterDungeon.Warrior.Attack
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Warrior.Attack
+  nameWithType: Warrior.Attack
+- uid: VerfluchterDungeon.Warrior.AttackPower
+  name: AttackPower
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_AttackPower
+  commentId: P:VerfluchterDungeon.Warrior.AttackPower
+  fullName: VerfluchterDungeon.Warrior.AttackPower
+  nameWithType: Warrior.AttackPower
+- uid: VerfluchterDungeon.Warrior.AttackPower*
+  name: AttackPower
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_AttackPower_
+  commentId: Overload:VerfluchterDungeon.Warrior.AttackPower
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Warrior.AttackPower
+  nameWithType: Warrior.AttackPower
+- uid: VerfluchterDungeon.Warrior.Bash
+  name: Bash()
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Bash
+  commentId: M:VerfluchterDungeon.Warrior.Bash
+  fullName: VerfluchterDungeon.Warrior.Bash()
+  nameWithType: Warrior.Bash()
+- uid: VerfluchterDungeon.Warrior.Bash*
+  name: Bash
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Bash_
+  commentId: Overload:VerfluchterDungeon.Warrior.Bash
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Warrior.Bash
+  nameWithType: Warrior.Bash
+- uid: VerfluchterDungeon.Warrior.EquippedWeapon
+  name: EquippedWeapon
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_EquippedWeapon
+  commentId: P:VerfluchterDungeon.Warrior.EquippedWeapon
+  fullName: VerfluchterDungeon.Warrior.EquippedWeapon
+  nameWithType: Warrior.EquippedWeapon
+- uid: VerfluchterDungeon.Warrior.EquippedWeapon*
+  name: EquippedWeapon
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_EquippedWeapon_
+  commentId: Overload:VerfluchterDungeon.Warrior.EquippedWeapon
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Warrior.EquippedWeapon
+  nameWithType: Warrior.EquippedWeapon
+- uid: VerfluchterDungeon.Warrior.Hp
+  name: Hp
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Hp
+  commentId: P:VerfluchterDungeon.Warrior.Hp
+  fullName: VerfluchterDungeon.Warrior.Hp
+  nameWithType: Warrior.Hp
+- uid: VerfluchterDungeon.Warrior.Hp*
+  name: Hp
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Hp_
+  commentId: Overload:VerfluchterDungeon.Warrior.Hp
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Warrior.Hp
+  nameWithType: Warrior.Hp
+- uid: VerfluchterDungeon.Warrior.Name
+  name: Name
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Name
+  commentId: P:VerfluchterDungeon.Warrior.Name
+  fullName: VerfluchterDungeon.Warrior.Name
+  nameWithType: Warrior.Name
+- uid: VerfluchterDungeon.Warrior.Name*
+  name: Name
+  href: api/VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Name_
+  commentId: Overload:VerfluchterDungeon.Warrior.Name
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Warrior.Name
+  nameWithType: Warrior.Name
+- uid: VerfluchterDungeon.Weapon
+  name: Weapon
+  href: api/VerfluchterDungeon.Weapon.html
+  commentId: T:VerfluchterDungeon.Weapon
+  fullName: VerfluchterDungeon.Weapon
+  nameWithType: Weapon
+- uid: VerfluchterDungeon.Weapon.#ctor(System.String,System.Int32)
+  name: Weapon(string, int)
+  href: api/VerfluchterDungeon.Weapon.html#VerfluchterDungeon_Weapon__ctor_System_String_System_Int32_
+  commentId: M:VerfluchterDungeon.Weapon.#ctor(System.String,System.Int32)
+  name.vb: New(String, Integer)
+  fullName: VerfluchterDungeon.Weapon.Weapon(string, int)
+  fullName.vb: VerfluchterDungeon.Weapon.New(String, Integer)
+  nameWithType: Weapon.Weapon(string, int)
+  nameWithType.vb: Weapon.New(String, Integer)
+- uid: VerfluchterDungeon.Weapon.#ctor*
+  name: Weapon
+  href: api/VerfluchterDungeon.Weapon.html#VerfluchterDungeon_Weapon__ctor_
+  commentId: Overload:VerfluchterDungeon.Weapon.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: VerfluchterDungeon.Weapon.Weapon
+  fullName.vb: VerfluchterDungeon.Weapon.New
+  nameWithType: Weapon.Weapon
+  nameWithType.vb: Weapon.New
+- uid: VerfluchterDungeon.Weapon.Damage
+  name: Damage
+  href: api/VerfluchterDungeon.Weapon.html#VerfluchterDungeon_Weapon_Damage
+  commentId: P:VerfluchterDungeon.Weapon.Damage
+  fullName: VerfluchterDungeon.Weapon.Damage
+  nameWithType: Weapon.Damage
+- uid: VerfluchterDungeon.Weapon.Damage*
+  name: Damage
+  href: api/VerfluchterDungeon.Weapon.html#VerfluchterDungeon_Weapon_Damage_
+  commentId: Overload:VerfluchterDungeon.Weapon.Damage
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Weapon.Damage
+  nameWithType: Weapon.Damage
+- uid: VerfluchterDungeon.Weapon.Name
+  name: Name
+  href: api/VerfluchterDungeon.Weapon.html#VerfluchterDungeon_Weapon_Name
+  commentId: P:VerfluchterDungeon.Weapon.Name
+  fullName: VerfluchterDungeon.Weapon.Name
+  nameWithType: Weapon.Name
+- uid: VerfluchterDungeon.Weapon.Name*
+  name: Name
+  href: api/VerfluchterDungeon.Weapon.html#VerfluchterDungeon_Weapon_Name_
+  commentId: Overload:VerfluchterDungeon.Weapon.Name
+  isSpec: "True"
+  fullName: VerfluchterDungeon.Weapon.Name
+  nameWithType: Weapon.Name

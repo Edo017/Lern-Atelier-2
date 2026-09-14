@@ -1,0 +1,186 @@
+{
+  "source_base_path": "C:/Users/omerc/Lern-Atelier-2/src/VerfluchterDungeon",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.Boss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.Boss.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon.Boss",
+      "Summary": "<p sourcefile=\"api/VerfluchterDungeon.Boss.yml\" sourcestartlinenumber=\"1\">Endgegner des Dungeons - greift bei niedrigen HP wuetend an.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.Goblin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.Goblin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon.Goblin",
+      "Summary": "<p sourcefile=\"api/VerfluchterDungeon.Goblin.yml\" sourcestartlinenumber=\"1\">Ein einfacher, schwacher Gegner.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.Orc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.Orc.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon.Orc",
+      "Summary": "<p sourcefile=\"api/VerfluchterDungeon.Orc.yml\" sourcestartlinenumber=\"1\">Ein Gegner mit erhöhtem Angriffsschaden.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.Skeleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.Skeleton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon.Skeleton",
+      "Summary": "<p sourcefile=\"api/VerfluchterDungeon.Skeleton.yml\" sourcestartlinenumber=\"1\">Ein Gegner, der einmalig nach dem Tod mit wenig HP wiederauferstehen kann.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.Warrior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.Warrior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon.Warrior",
+      "Summary": "<p sourcefile=\"api/VerfluchterDungeon.Warrior.yml\" sourcestartlinenumber=\"1\">Repräsentiert einen Krieger-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.Weapon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon.Weapon",
+      "Summary": "<p sourcefile=\"api/VerfluchterDungeon.Weapon.yml\" sourcestartlinenumber=\"1\">Repräsentiert eine Waffe mit einem Namen und einem Schadenswert.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerfluchterDungeon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerfluchterDungeon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "VerfluchterDungeon",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

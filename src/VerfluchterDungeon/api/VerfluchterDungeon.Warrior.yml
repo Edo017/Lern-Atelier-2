@@ -1,0 +1,605 @@
+### YamlMime:ManagedReference
+items:
+- uid: VerfluchterDungeon.Warrior
+  commentId: T:VerfluchterDungeon.Warrior
+  id: Warrior
+  parent: VerfluchterDungeon
+  children:
+  - VerfluchterDungeon.Warrior.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)
+  - VerfluchterDungeon.Warrior.Attack
+  - VerfluchterDungeon.Warrior.AttackPower
+  - VerfluchterDungeon.Warrior.Bash
+  - VerfluchterDungeon.Warrior.EquippedWeapon
+  - VerfluchterDungeon.Warrior.Hp
+  - VerfluchterDungeon.Warrior.Name
+  langs:
+  - csharp
+  - vb
+  name: Warrior
+  nameWithType: Warrior
+  fullName: VerfluchterDungeon.Warrior
+  type: Class
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Warrior
+    path: Warrior.cs
+    startLine: 9
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Repräsentiert einen Krieger-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
+  example: []
+  syntax:
+    content: public class Warrior
+    content.vb: Public Class Warrior
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: VerfluchterDungeon.Warrior.Name
+  commentId: P:VerfluchterDungeon.Warrior.Name
+  id: Name
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Warrior.Name
+  fullName: VerfluchterDungeon.Warrior.Name
+  type: Property
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Name
+    path: Warrior.cs
+    startLine: 14
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Der Name des Kriegers.
+  example: []
+  syntax:
+    content: public required string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: VerfluchterDungeon.Warrior.Name*
+- uid: VerfluchterDungeon.Warrior.Hp
+  commentId: P:VerfluchterDungeon.Warrior.Hp
+  id: Hp
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: Hp
+  nameWithType: Warrior.Hp
+  fullName: VerfluchterDungeon.Warrior.Hp
+  type: Property
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Hp
+    path: Warrior.cs
+    startLine: 19
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Die aktuellen Lebenspunkte (HP) des Kriegers.
+  example: []
+  syntax:
+    content: public int Hp { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hp As Integer
+  overload: VerfluchterDungeon.Warrior.Hp*
+- uid: VerfluchterDungeon.Warrior.AttackPower
+  commentId: P:VerfluchterDungeon.Warrior.AttackPower
+  id: AttackPower
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: AttackPower
+  nameWithType: Warrior.AttackPower
+  fullName: VerfluchterDungeon.Warrior.AttackPower
+  type: Property
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: AttackPower
+    path: Warrior.cs
+    startLine: 24
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Die Angriffskraft des Kriegers, beeinflusst den maximal möglichen Basisschaden.
+  example: []
+  syntax:
+    content: public int AttackPower { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AttackPower As Integer
+  overload: VerfluchterDungeon.Warrior.AttackPower*
+- uid: VerfluchterDungeon.Warrior.EquippedWeapon
+  commentId: P:VerfluchterDungeon.Warrior.EquippedWeapon
+  id: EquippedWeapon
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: EquippedWeapon
+  nameWithType: Warrior.EquippedWeapon
+  fullName: VerfluchterDungeon.Warrior.EquippedWeapon
+  type: Property
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: EquippedWeapon
+    path: Warrior.cs
+    startLine: 29
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Die aktuell ausgerüstete Waffe des Kriegers.
+  example: []
+  syntax:
+    content: public Weapon EquippedWeapon { get; set; }
+    parameters: []
+    return:
+      type: VerfluchterDungeon.Weapon
+    content.vb: Public Property EquippedWeapon As Weapon
+  overload: VerfluchterDungeon.Warrior.EquippedWeapon*
+- uid: VerfluchterDungeon.Warrior.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)
+  commentId: M:VerfluchterDungeon.Warrior.#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)
+  id: '#ctor(System.String,System.Int32,System.Int32,VerfluchterDungeon.Weapon)'
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: Warrior(string, int, int, Weapon)
+  nameWithType: Warrior.Warrior(string, int, int, Weapon)
+  fullName: VerfluchterDungeon.Warrior.Warrior(string, int, int, VerfluchterDungeon.Weapon)
+  type: Constructor
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: .ctor
+    path: Warrior.cs
+    startLine: 38
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Erstellt einen neuen Krieger mit den angegebenen Startwerten.
+  example: []
+  syntax:
+    content: >-
+      [SetsRequiredMembers]
+
+      public Warrior(string name, int hp, int attackPower, Weapon equippedWeapon)
+    parameters:
+    - id: name
+      type: System.String
+      description: Der Name des Kriegers.
+    - id: hp
+      type: System.Int32
+      description: Die Start-Lebenspunkte des Kriegers.
+    - id: attackPower
+      type: System.Int32
+      description: Die Angriffskraft des Kriegers.
+    - id: equippedWeapon
+      type: VerfluchterDungeon.Weapon
+      description: Die Waffe, die der Krieger zu Beginn ausgerüstet hat.
+    content.vb: >-
+      <SetsRequiredMembers>
+
+      Public Sub New(name As String, hp As Integer, attackPower As Integer, equippedWeapon As Weapon)
+  overload: VerfluchterDungeon.Warrior.#ctor*
+  attributes:
+  - type: System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute
+    ctor: System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute.#ctor
+    arguments: []
+  nameWithType.vb: Warrior.New(String, Integer, Integer, Weapon)
+  fullName.vb: VerfluchterDungeon.Warrior.New(String, Integer, Integer, VerfluchterDungeon.Weapon)
+  name.vb: New(String, Integer, Integer, Weapon)
+- uid: VerfluchterDungeon.Warrior.Bash
+  commentId: M:VerfluchterDungeon.Warrior.Bash
+  id: Bash
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: Bash()
+  nameWithType: Warrior.Bash()
+  fullName: VerfluchterDungeon.Warrior.Bash()
+  type: Method
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Bash
+    path: Warrior.cs
+    startLine: 61
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Führt einen starken Angriff (Bash) aus, der den doppelten Waffenschaden verursacht.
+  example: []
+  syntax:
+    content: public int Bash()
+    return:
+      type: System.Int32
+      description: Der berechnete Gesamtschaden des Bash-Angriffs.
+    content.vb: Public Function Bash() As Integer
+  overload: VerfluchterDungeon.Warrior.Bash*
+- uid: VerfluchterDungeon.Warrior.Attack
+  commentId: M:VerfluchterDungeon.Warrior.Attack
+  id: Attack
+  parent: VerfluchterDungeon.Warrior
+  langs:
+  - csharp
+  - vb
+  name: Attack()
+  nameWithType: Warrior.Attack()
+  fullName: VerfluchterDungeon.Warrior.Attack()
+  type: Method
+  source:
+    remote:
+      path: src/VerfluchterDungeon/Warrior.cs
+      branch: main
+      repo: https://github.com/Edo017/Lern-Atelier-2.git
+    id: Attack
+    path: Warrior.cs
+    startLine: 71
+  assemblies:
+  - VerfluchterDungeon
+  namespace: VerfluchterDungeon
+  summary: Führt einen Standard-Angriff aus.
+  example: []
+  syntax:
+    content: public int Attack()
+    return:
+      type: System.Int32
+      description: Der berechnete Gesamtschaden.
+    content.vb: Public Function Attack() As Integer
+  overload: VerfluchterDungeon.Warrior.Attack*
+references:
+- uid: VerfluchterDungeon
+  commentId: N:VerfluchterDungeon
+  href: VerfluchterDungeon.html
+  name: VerfluchterDungeon
+  nameWithType: VerfluchterDungeon
+  fullName: VerfluchterDungeon
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VerfluchterDungeon.Warrior.Name*
+  commentId: Overload:VerfluchterDungeon.Warrior.Name
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Name
+  name: Name
+  nameWithType: Warrior.Name
+  fullName: VerfluchterDungeon.Warrior.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: VerfluchterDungeon.Warrior.Hp*
+  commentId: Overload:VerfluchterDungeon.Warrior.Hp
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Hp
+  name: Hp
+  nameWithType: Warrior.Hp
+  fullName: VerfluchterDungeon.Warrior.Hp
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: VerfluchterDungeon.Warrior.AttackPower*
+  commentId: Overload:VerfluchterDungeon.Warrior.AttackPower
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_AttackPower
+  name: AttackPower
+  nameWithType: Warrior.AttackPower
+  fullName: VerfluchterDungeon.Warrior.AttackPower
+- uid: VerfluchterDungeon.Warrior.EquippedWeapon*
+  commentId: Overload:VerfluchterDungeon.Warrior.EquippedWeapon
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_EquippedWeapon
+  name: EquippedWeapon
+  nameWithType: Warrior.EquippedWeapon
+  fullName: VerfluchterDungeon.Warrior.EquippedWeapon
+- uid: VerfluchterDungeon.Weapon
+  commentId: T:VerfluchterDungeon.Weapon
+  parent: VerfluchterDungeon
+  href: VerfluchterDungeon.Weapon.html
+  name: Weapon
+  nameWithType: Weapon
+  fullName: VerfluchterDungeon.Weapon
+- uid: VerfluchterDungeon.Warrior.#ctor*
+  commentId: Overload:VerfluchterDungeon.Warrior.#ctor
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior__ctor_System_String_System_Int32_System_Int32_VerfluchterDungeon_Weapon_
+  name: Warrior
+  nameWithType: Warrior.Warrior
+  fullName: VerfluchterDungeon.Warrior.Warrior
+  nameWithType.vb: Warrior.New
+  fullName.vb: VerfluchterDungeon.Warrior.New
+  name.vb: New
+- uid: VerfluchterDungeon.Warrior.Bash*
+  commentId: Overload:VerfluchterDungeon.Warrior.Bash
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Bash
+  name: Bash
+  nameWithType: Warrior.Bash
+  fullName: VerfluchterDungeon.Warrior.Bash
+- uid: VerfluchterDungeon.Warrior.Attack*
+  commentId: Overload:VerfluchterDungeon.Warrior.Attack
+  href: VerfluchterDungeon.Warrior.html#VerfluchterDungeon_Warrior_Attack
+  name: Attack
+  nameWithType: Warrior.Attack
+  fullName: VerfluchterDungeon.Warrior.Attack

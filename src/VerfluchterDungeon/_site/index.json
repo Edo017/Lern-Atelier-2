@@ -1,0 +1,52 @@
+{
+  "api/VerfluchterDungeon.Boss.html": {
+    "href": "api/VerfluchterDungeon.Boss.html",
+    "title": "Class Boss",
+    "summary": "Class Boss Namespace VerfluchterDungeon Assembly VerfluchterDungeon.dll Endgegner des Dungeons - greift bei niedrigen HP wuetend an. public class Boss : Enemy Inheritance object Enemy Boss Inherited Members Enemy.Name Enemy.Hp Enemy.AttackPower object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Boss(string, int, int) Erstellt einen neuen Boss. public Boss(string name, int hp, int attackPower) Parameters name string Anzeigename des Bosses. hp int Start- und zugleich maximale Lebenspunkte. attackPower int Grundangriffswert. Methods Attack() Wie Enemy.Attack(), aber verdoppelt bei niedrigen HP (Wut-Mechanik). public override int Attack() Returns int Der verursachte Schaden in Punkten."
+  },
+  "api/VerfluchterDungeon.Goblin.html": {
+    "href": "api/VerfluchterDungeon.Goblin.html",
+    "title": "Class Goblin",
+    "summary": "Class Goblin Namespace VerfluchterDungeon Assembly VerfluchterDungeon.dll Ein einfacher, schwacher Gegner. public class Goblin : Enemy Inheritance object Enemy Goblin Inherited Members Enemy.Name Enemy.Hp Enemy.AttackPower Enemy.Attack() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Goblin(string, int, int) Erstellt einen neuen Goblin. public Goblin(string name, int hp, int attackPower) Parameters name string Anzeigename des Goblins. hp int Start-Lebenspunkte. attackPower int Grundangriffswert."
+  },
+  "api/VerfluchterDungeon.Orc.html": {
+    "href": "api/VerfluchterDungeon.Orc.html",
+    "title": "Class Orc",
+    "summary": "Class Orc Namespace VerfluchterDungeon Assembly VerfluchterDungeon.dll Ein Gegner mit erhöhtem Angriffsschaden. public class Orc : Enemy Inheritance object Enemy Orc Inherited Members Enemy.Name Enemy.Hp Enemy.AttackPower object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Orc(string, int, int) Erstellt einen neuen Orc. public Orc(string name, int hp, int attackPower) Parameters name string Anzeigename des Orcs. hp int Start-Lebenspunkte. attackPower int Grundangriffswert. Methods Attack() Wie Enemy.Attack(), aber mit zusätzlichem Bonusschaden. public override int Attack() Returns int Der verursachte Schaden in Punkten."
+  },
+  "api/VerfluchterDungeon.Skeleton.html": {
+    "href": "api/VerfluchterDungeon.Skeleton.html",
+    "title": "Class Skeleton",
+    "summary": "Class Skeleton Namespace VerfluchterDungeon Assembly VerfluchterDungeon.dll Ein Gegner, der einmalig nach dem Tod mit wenig HP wiederauferstehen kann. public class Skeleton : Enemy Inheritance object Enemy Skeleton Inherited Members Enemy.Name Enemy.Hp Enemy.AttackPower Enemy.Attack() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Skeleton(string, int, int) Erstellt ein neues Skelett. public Skeleton(string name, int hp, int attackPower) Parameters name string Anzeigename des Skeletts. hp int Start-Lebenspunkte. attackPower int Grundangriffswert. Methods Reassemble() Lässt das Skelett einmalig mit 5 HP wiederauferstehen, sofern es besiegt wurde und dies noch nicht geschehen ist. public bool Reassemble() Returns bool true, wenn die Reassemblierung erfolgreich war, sonst false."
+  },
+  "api/VerfluchterDungeon.Warrior.html": {
+    "href": "api/VerfluchterDungeon.Warrior.html",
+    "title": "Class Warrior",
+    "summary": "Class Warrior Namespace VerfluchterDungeon Assembly VerfluchterDungeon.dll Repräsentiert einen Krieger-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe. public class Warrior Inheritance object Warrior Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Warrior(string, int, int, Weapon) Erstellt einen neuen Krieger mit den angegebenen Startwerten. [SetsRequiredMembers] public Warrior(string name, int hp, int attackPower, Weapon equippedWeapon) Parameters name string Der Name des Kriegers. hp int Die Start-Lebenspunkte des Kriegers. attackPower int Die Angriffskraft des Kriegers. equippedWeapon Weapon Die Waffe, die der Krieger zu Beginn ausgerüstet hat. Properties AttackPower Die Angriffskraft des Kriegers, beeinflusst den maximal möglichen Basisschaden. public int AttackPower { get; set; } Property Value int EquippedWeapon Die aktuell ausgerüstete Waffe des Kriegers. public Weapon EquippedWeapon { get; set; } Property Value Weapon Hp Die aktuellen Lebenspunkte (HP) des Kriegers. public int Hp { get; set; } Property Value int Name Der Name des Kriegers. public required string Name { get; set; } Property Value string Methods Attack() Führt einen Standard-Angriff aus. public int Attack() Returns int Der berechnete Gesamtschaden. Bash() Führt einen starken Angriff (Bash) aus, der den doppelten Waffenschaden verursacht. public int Bash() Returns int Der berechnete Gesamtschaden des Bash-Angriffs."
+  },
+  "api/VerfluchterDungeon.Weapon.html": {
+    "href": "api/VerfluchterDungeon.Weapon.html",
+    "title": "Class Weapon",
+    "summary": "Class Weapon Namespace VerfluchterDungeon Assembly VerfluchterDungeon.dll Repräsentiert eine Waffe mit einem Namen und einem Schadenswert. public class Weapon Inheritance object Weapon Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Weapon(string, int) Erstellt eine neue Waffe mit dem angegebenen Namen und Schadenswert. public Weapon(string name, int damage) Parameters name string Der Name der Waffe. damage int Der Schadenswert der Waffe. Properties Damage Der Schadenswert, den die Waffe bei einem Angriff hinzufügt. public int Damage { get; set; } Property Value int Name Der Name der Waffe. public string Name { get; set; } Property Value string"
+  },
+  "api/VerfluchterDungeon.html": {
+    "href": "api/VerfluchterDungeon.html",
+    "title": "Namespace VerfluchterDungeon",
+    "summary": "Namespace VerfluchterDungeon Classes Boss Endgegner des Dungeons - greift bei niedrigen HP wuetend an. Goblin Ein einfacher, schwacher Gegner. Orc Ein Gegner mit erhöhtem Angriffsschaden. Skeleton Ein Gegner, der einmalig nach dem Tod mit wenig HP wiederauferstehen kann. Warrior Repräsentiert einen Krieger-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe. Weapon Repräsentiert eine Waffe mit einem Namen und einem Schadenswert."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE.",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
