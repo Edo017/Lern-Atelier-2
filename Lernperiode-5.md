@@ -69,11 +69,23 @@ Heute habe ich eigentlich alles wie die letzten Male gemacht, einfach diesmal ha
 - [x] M322 repetieren
 - [x] M231 weiter arbeiten
 
-### Tagesplanung 11.09.2026
+### Tagesreflexion 11.09.2026
 
 Heute habe ich die meiste Zeit damit verbracht, mein Terminal zu gestalten und neue Befehle herunterzuladen, zum Beispiel, um den Explorer auf dem Terminal zu öffnen, Videos herunterzuladen, den Taskmanager auf dem Terminal zu öffnen und solche Sachen. Ich habe auch eigene Themes für das Terminal erstellt und mit Oh my Posh fancy Sachen gemacht. Ansonsten habe ich nur ein bisschen an den Modulen gearbeitet bzw. repetiert: M320 kurz repetiert, bei M321 eine Aufgabe gelöst und bei M322 einfach repetiert. Ich hatte keine grossen Schwierigkeiten, alles lief gut. Für das nächste Mal werde ich an M320 weiterarbeiten/repetieren und wahrscheinlich mein Notebook gestalten.
 
 ### Planung 18.09.2026
 
-- [ ] M320 weiter arbeiten
-- [ ] Notebook gestalten
+- [x] M320 weiter arbeiten
+- [x] Notebook gestalten
+
+### Tagesreflexion 18.09.2026
+
+Heute habe ich ein bisschen M320 repetiert danach sehr lange gebraucht C++ auf Visual Studio Code es funktionieren lassen. Dank Joel konnte ich es machen und habe ein Taschnrechner auf C++ programmiert. Ich habe vor in den Herbst Ferien C++ üben, weil ich finde die Sprache interressant und wie schnell sie ist. Hatte nur bei dem C++ schwierigkeiten es zu machen weil man muss das herunterladen dann das dann das usw. Für das nächste Lernperiode habe ich vor ein Projekt machen auf C++ aber was ganz genau weiss ich noch nicht.
+
+## Lernperiode Reflexion
+
+In dieser Lernperiode habe ich mich vor allem mit den Modulen M320, M322 und M231 beschäftigt. Im M320 habe ich mich schrittweise durch verschiedene Themen gearbeitet, von Objekten bis zu OOP-Konzepten, und laufend repetiert. Im M231 habe ich mehrere Aufträge bearbeitet, teils zusammen mit Helin – bei VeraCrypt hatten wir zuerst Mühe, konnten das Problem aber gemeinsam mit KI-Unterstützung lösen. Beim M322 war mein Einsatz unregelmässiger, da mir die Motivation zum Repetieren nicht immer gereicht hat.
+
+Daneben habe ich mein Notebook und Terminal eingerichtet und personalisiert (neue Apps, Passwort-Manager, eigene Terminal-Themes mit Oh My Posh) und zu Beginn der ILA einen passenden Monitor evaluiert. Gegen Ende der Periode habe ich mit Hilfe von Joel C++ zum Laufen gebracht und einen Taschenrechner programmiert. Die Sprache hat mich wegen ihrer Geschwindigkeit sofort überzeugt, weshalb ich in den Herbstferien weiter üben und in der nächsten Lernperiode ein eigenes C++-Projekt starten möchte.
+
+Insgesamt war es eine konstante Lernperiode ohne grössere Schwierigkeiten – auftretende Probleme konnte ich jeweils mit Unterstützung lösen, und ich bin sowohl schulisch als auch privat klar in Richtung Programmieren vorangekommen.
