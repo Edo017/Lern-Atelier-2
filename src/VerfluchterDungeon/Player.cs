@@ -4,7 +4,7 @@ using VerfluchterDungeon;
 /// <summary>
 /// Repräsentiert den Spielercharakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
 /// </summary>
-public class Player : IAttackable
+public class Player : IAttackable, IHealable
 {
     /// <summary>
     /// Der Name des Spielers.
@@ -64,5 +64,37 @@ public class Player : IAttackable
     public int Attack()
     {
         return _damageCalculator.CalculateDamage(AttackPower, EquippedWeapon.Damage);
+    }
+    private const string HealPotionName = "Heiltrank";
+    private const int HealAmount = 10;
+
+    // ... Attack() unveraendert ...
+
+    /// <summary>
+    /// Heilt den Player, falls ein Heiltrank im Inventar vorhanden ist.
+    /// </summary>
+    /// <returns>Die Anzahl geheilter Lebenspunkte (0, falls kein Heiltrank vorhanden).</returns>
+    public int Heal()
+    {
+        if (!EquippedInventory.HasItem(HealPotionName))
+        {
+            return 0;
+        }
+        EquippedInventory.RemoveItem(HealPotionName);
+        Hp += HealAmount;
+        return HealAmount;
+    }
+}
+
+internal class EquippedInventory
+{
+    internal static bool HasItem(string healPotionName)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static void RemoveItem(string healPotionName)
+    {
+        throw new NotImplementedException();
     }
 }

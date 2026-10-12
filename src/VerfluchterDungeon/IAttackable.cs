@@ -4,6 +4,7 @@ namespace VerfluchterDungeon
     public interface IAttackable
     {
         /// <summary>Führt einen Angriff aus und gibt den verursachten Schaden zurück.</summary>
+        int Hp { get; set; }
         int Attack();
     }
 }

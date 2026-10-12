@@ -1,11 +1,11 @@
-using System;
+
 using System.Diagnostics.CodeAnalysis;
 using VerfluchterDungeon;
 
 /// <summary>
 /// Repräsentiert einen Heiler-Charakter mit Lebenspunkten, Heilkraft und ausgerüsteter Waffe.
 /// </summary>
-public class Healer
+public class Healer : IHealable
 {
     /// <summary>
     /// Der Name des Heilers.
@@ -54,3 +54,4 @@ public class Healer
         return HealAmount;
     }
 }
+

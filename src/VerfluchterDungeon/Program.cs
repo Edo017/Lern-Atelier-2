@@ -37,6 +37,25 @@ inventory.ListItems();
 
 Console.WriteLine($"Kampf startet zwischen {player.Name}, {warrior.Name}, {mage.Name} und {healer.Name} gegen {enemy.Name}!");
 
+List<IAttackable> party = new List<IAttackable> { player, warrior, mage };
+foreach (IAttackable member in party)
+{
+    Console.WriteLine($"Angriff: {member.Attack()} Schaden.");
+}
+
+List<IAttackable> everyone = new List<IAttackable> { player, warrior, mage, enemy };
+foreach (IAttackable participant in everyone)
+{
+    Console.WriteLine($"{participant.GetType().Name} greift an: {participant.Attack()} Schaden.");
+}
+
+List<IHealable> healers = new List<IHealable> { healer, player };
+foreach (IHealable h in healers)
+{
+    Console.WriteLine($"Heilung: +{h.Heal()} HP.");
+}
+
+
 while (player.Hp > 0 && enemy.Hp > 0)
 {
     int playerDamage = player.Attack();

@@ -1,13 +1,13 @@
-using System;
+
 using System.Diagnostics.CodeAnalysis;
-using VerfluchterDungeon;
+
 
 namespace VerfluchterDungeon
 {
     /// <summary>
     /// Repräsentiert einen Krieger-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
     /// </summary>
-    public class Warrior
+    public class Warrior : IAttackable
     {
         /// <summary>
         /// Der Name des Kriegers.
@@ -71,8 +71,7 @@ namespace VerfluchterDungeon
         /// <returns>Der berechnete Gesamtschaden.</returns>
         public int Attack()
         {
-            int baseDamage = RandomGenerator.Next(MinDamageRoll, AttackPower + 1);
-            return baseDamage + EquippedWeapon.Damage;
+            return Bash(); // Der Krieger verwendet standardmässig den Bash-Angriff.
         }
     }
 }

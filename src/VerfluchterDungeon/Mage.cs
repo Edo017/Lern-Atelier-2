@@ -5,7 +5,7 @@ using VerfluchterDungeon;
 /// <summary>
 /// Repräsentiert einen Magier-Charakter mit Lebenspunkten, Angriffskraft und ausgerüsteter Waffe.
 /// </summary>
-public class Mage
+public class Mage : IAttackable
 {
     /// <summary>
     /// Der Name des Magiers.
@@ -56,5 +56,10 @@ public class Mage
     public int CastSpell()
     {
         return RandomGenerator.Next(AttackPower, AttackPower * 3 + 1);
+    }
+
+    public int Attack()
+    {
+        return CastSpell();
     }
 }

@@ -4,7 +4,7 @@ using VerfluchterDungeon;
 /// <summary>
 /// Repräsentiert einen Gegner mit Lebenspunkten und Angriffskraft.
 /// </summary>
-public class Enemy
+public class Enemy : IAttackable
 {
     /// <summary>Der Name des Gegners.</summary>
     public string Name { get; set; }
