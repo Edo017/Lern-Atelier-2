@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VerfluchterDungeon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+549742b692395167c3ac2284046400203fa4b108")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a9e2960355c390aed952e6eb7ef4391fcf6c9f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("VerfluchterDungeon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VerfluchterDungeon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
