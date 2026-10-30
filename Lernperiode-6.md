@@ -32,7 +32,16 @@ In dieser Lernperiode ein C++ machen
 
 Heute habe ich mit einem einfachen C++-Projekt begonnen. Ein Schere-Stein-Papier-Spiel. Es war ein bisschen anspruchsvoll, weil es schwierig war, zu entscheiden, was der Computer wählen soll. Ich habe mir überlegt, wie ich C++ gut üben kann: Ich mache ein Projekt in ILA und steige immer von einer Schwierigkeitsstufe zur nächsten auf. Ich habe einen kleinen Text über C# gelesen, hatte dann aber keine Lust mehr, weil ich schlecht geschlafen habe. Es gab nur bei dem Schere-Stein-Papier-Spiel kleine Schwierigkeiten, sonst nirgends. Für das nächste Mal werde ich C++ weiter üben und mir zusätzlich ein paar Videos zu Excel anschauen.
 
-### Planung 23.20.2026
+### Planung 30.10.2026
+
+- [x] C++ weiter üben
+- [ ] YouTube Videos anschauen über Excel
+
+### Tagesreflexion 30.10.2026
+
+Heute habe ich meinen Tag in zwei Teile aufgeteilt. In der ersten Hälfte habe ich weiter an M346 gearbeitet, sodass ich für den LB-1 nächste Woche vorbereitet bin. Es war okay. Danach habe ich ein bisschen C++ geübt. Ich habe mit einer To-do-Liste angefangen, aber keine Excel-Videos angeschaut. Für das nächste Mal werde ich weiter C++ üben und vielleicht den LB-1 fertigstellen und mir ein Excel-Video anschauen.
+
+### Planung 0.11.2026
 
 - [ ] C++ weiter üben
-- [ ] YouTube Videos anschauen über Excel
+- [ ] Excel Videos anschauen
