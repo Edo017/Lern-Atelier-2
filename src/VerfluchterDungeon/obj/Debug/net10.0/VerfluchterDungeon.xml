@@ -4,6 +4,16 @@
         <name>VerfluchterDungeon</name>
     </assembly>
     <members>
+        <member name="T:VerfluchterDungeon.BattleService">
+            <summary>Fuehrt Kaempfe zwischen zwei IAttackable-Teilnehmern durch.</summary>
+        </member>
+        <member name="M:VerfluchterDungeon.BattleService.Fight(VerfluchterDungeon.IAttackable,VerfluchterDungeon.IAttackable)">
+            <summary>
+            Laesst zwei Teilnehmer gegeneinander kaempfen, bis eine Seite 0 HP erreicht.
+            </summary>
+            <param name="a">Erster Teilnehmer (z.B. der Player).</param>
+            <param name="b">Zweiter Teilnehmer (z.B. ein Enemy).</param>
+        </member>
         <member name="T:VerfluchterDungeon.Boss">
             <summary>Endgegner des Dungeons - greift bei niedrigen HP wuetend an.</summary>
         </member>
@@ -27,6 +37,18 @@
             <param name="name">Anzeigename des Goblins.</param>
             <param name="hp">Start-Lebenspunkte.</param>
             <param name="attackPower">Grundangriffswert.</param>
+        </member>
+        <member name="T:VerfluchterDungeon.IAttackable">
+            <summary>Vertrag für alles, was einen Angriff ausführen kann.</summary>
+        </member>
+        <member name="P:VerfluchterDungeon.IAttackable.Hp">
+            <summary>Führt einen Angriff aus und gibt den verursachten Schaden zurück.</summary>
+        </member>
+        <member name="T:VerfluchterDungeon.IHealable">
+            <summary>Vertrag fuer alles, was geheilt werden bzw. heilen kann.</summary>
+        </member>
+        <member name="M:VerfluchterDungeon.IHealable.Heal">
+            <summary>Heilt und gibt die Anzahl geheilter Lebenspunkte zurueck.</summary>
         </member>
         <member name="T:VerfluchterDungeon.Orc">
             <summary>Ein Gegner mit erhöhtem Angriffsschaden.</summary>
@@ -378,6 +400,12 @@
             aus zufälligem Basisschaden und dem Schaden der ausgerüsteten Waffe.
             </summary>
             <returns>Der berechnete Gesamtschaden des Angriffs.</returns>
+        </member>
+        <member name="M:Player.Heal">
+            <summary>
+            Heilt den Player, falls ein Heiltrank im Inventar vorhanden ist.
+            </summary>
+            <returns>Die Anzahl geheilter Lebenspunkte (0, falls kein Heiltrank vorhanden).</returns>
         </member>
         <member name="T:Room">
             <summary>Repräsentiert einen Raum im Dungeon, der optional einen Gegner enthält.</summary>

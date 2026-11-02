@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)onigwrap\1.0.11\buildTransitive\netstandard1.0\Onigwrap.props" Condition="Exists('$(NuGetPackageRoot)onigwrap\1.0.11\buildTransitive\netstandard1.0\Onigwrap.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform\2.4.1\buildTransitive\net9.0\Microsoft.Testing.Platform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform\2.4.1\buildTransitive\net9.0\Microsoft.Testing.Platform.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform.msbuild\2.4.1\buildTransitive\Microsoft.Testing.Platform.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform.msbuild\2.4.1\buildTransitive\Microsoft.Testing.Platform.MSBuild.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.extensions.telemetry\2.4.1\buildTransitive\net9.0\Microsoft.Testing.Extensions.Telemetry.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.extensions.telemetry\2.4.1\buildTransitive\net9.0\Microsoft.Testing.Extensions.Telemetry.props')" />
