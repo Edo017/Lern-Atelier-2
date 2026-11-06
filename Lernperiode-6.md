@@ -41,7 +41,16 @@ Heute habe ich mit einem einfachen C++-Projekt begonnen. Ein Schere-Stein-Papier
 
 Heute habe ich meinen Tag in zwei Teile aufgeteilt. In der ersten Hälfte habe ich weiter an M346 gearbeitet, sodass ich für den LB-1 nächste Woche vorbereitet bin. Es war okay. Danach habe ich ein bisschen C++ geübt. Ich habe mit einer To-do-Liste angefangen, aber keine Excel-Videos angeschaut. Für das nächste Mal werde ich weiter C++ üben und vielleicht den LB-1 fertigstellen und mir ein Excel-Video anschauen.
 
-### Planung 0.11.2026
+### Planung 06.11.2026
+
+- [x] C++ weiter üben
+- [x] Excel Videos anschauen
+
+### Tagesreflexion 06.11.2026
+
+Heute habe ich eigentlich nur C++ geübt und ein Video über Excel auf TikTok geschaut. Ich habe nur die Basics in Excel und für C++ wiederholt. Heute war es nicht mühsam; ich habe eher nichts gemacht als etwas. Für das nächste Mal wird es wahrscheinlich dasselbe sein, ausser dass ich Excel durch ein Modul ersetzen werde.
+
+### Planung 13.11.2026
 
 - [ ] C++ weiter üben
-- [ ] Excel Videos anschauen
+- [ ] an einem Modul arbeiten
