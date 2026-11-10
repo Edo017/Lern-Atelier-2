@@ -1,0 +1,15 @@
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\bin\Debug\net10.0\8032_Observer.exe
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\bin\Debug\net10.0\8032_Observer.deps.json
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\bin\Debug\net10.0\8032_Observer.runtimeconfig.json
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\bin\Debug\net10.0\8032_Observer.dll
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\bin\Debug\net10.0\8032_Observer.pdb
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.AssemblyInfoInputs.cache
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.AssemblyInfo.cs
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.sourcelink.json
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.dll
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\refint\8032_Observer.dll
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.pdb
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\8032_Observer.genruntimeconfig.cache
+C:\Users\omerc\Lern-Atelier-2\8032_Observer\obj\Debug\net10.0\ref\8032_Observer.dll
