@@ -52,5 +52,14 @@ Heute habe ich eigentlich nur C++ geübt und ein Video über Excel auf TikTok ge
 
 ### Planung 13.11.2026
 
+- [x] C++ weiter üben
+- [x] an einem Modul arbeiten
+
+### Tagesreflexion 13.11.2026
+
+Heute habe ich am Anfang ein bisschen mit AWS gearbeitet, genauer gesagt mit NAT und SSH. Ich habe Herrn Thuh dabei zugeschaut, wie es funktioniert. Danach habe ich ein bisschen C++ geübt und ein kleines Apfel-Programm geschrieben. Zuletzt habe ich nichts gemacht, sondern nur für Wirtschaft repetiert. Heute ging alles gut, nichts war schwer. Für das nächste Mal möchte ich weiter an M165 arbeiten und C++ üben.
+
+### Planung 20.11.2026
+
+- [ ] M165 weiter machen
 - [ ] C++ weiter üben
-- [ ] an einem Modul arbeiten
