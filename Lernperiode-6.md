@@ -59,7 +59,11 @@ Heute habe ich eigentlich nur C++ geübt und ein Video über Excel auf TikTok ge
 
 Heute habe ich am Anfang ein bisschen mit AWS gearbeitet, genauer gesagt mit NAT und SSH. Ich habe Herrn Thuh dabei zugeschaut, wie es funktioniert. Danach habe ich ein bisschen C++ geübt und ein kleines Apfel-Programm geschrieben. Zuletzt habe ich nichts gemacht, sondern nur für Wirtschaft repetiert. Heute ging alles gut, nichts war schwer. Für das nächste Mal möchte ich weiter an M165 arbeiten und C++ üben.
 
-### Planung 20.11.2026
+### Tagesreflexion 27.11.2026
 
-- [ ] M165 weiter machen
-- [ ] C++ weiter üben
+Heute habe ich mit Tobi weiter an der LB-M426 gearbeitet. Wir wollten nur den Teil mit GitLab/Programmierung machen. Es war schlimm wegen Merge-Problemen, und danach war es auch mühsam mit der RED/GREEN-Phase: das ganze Programm programmieren und danach noch etwas anpassen oder ändern. Ich habe auch bemerkt, dass ich das .NET-Projekt als Webanwendung statt als Konsolenanwendung gemacht habe. Nach 3 Stunden waren wir endlich fertig, und in der restlichen Zeit habe ich mir ein bisschen die Programmiersprache C angeschaut – das war's. Für das nächste Mal werde ich weiter bei C die Basics anschauen und noch M165 repetieren.
+
+### Planung 04.12.2026
+
+- [ ] C Basics anschauen
+- [ ] M165 repetieren

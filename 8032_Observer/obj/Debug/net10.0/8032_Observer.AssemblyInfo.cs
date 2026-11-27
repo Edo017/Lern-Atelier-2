@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("8032_Observer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62509f440c0899b0e63ba498de55742824bf6745")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ad18093af6f67e28fb5e924468c78632fbdc375")]
 [assembly: System.Reflection.AssemblyProductAttribute("8032_Observer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("8032_Observer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
